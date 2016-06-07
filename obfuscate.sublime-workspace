@@ -1,0 +1,976 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"as	assert"
+			],
+			[
+				"possibleS",
+				"possiblePixels"
+			],
+			[
+				"possible",
+				"possiblePixels"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"show",
+				"showCalendar"
+			],
+			[
+				"selec",
+				"selectedTask"
+			],
+			[
+				"sele",
+				"selectedYear"
+			],
+			[
+				"origi",
+				"originalSetYear"
+			],
+			[
+				"getCon",
+				"getConstantDetail"
+			],
+			[
+				"parseCons",
+				"parseConstantPool2nd"
+			],
+			[
+				"hp",
+				"HealthPoint"
+			],
+			[
+				"l",
+				"Length"
+			],
+			[
+				"mon",
+				"monsterCreated"
+			],
+			[
+				"DamageSp",
+				"DamageSpriteObject"
+			],
+			[
+				"location",
+				"locationIndex"
+			],
+			[
+				"Upda",
+				"UpdatePosition"
+			],
+			[
+				"translat",
+				"translateable"
+			],
+			[
+				"tran",
+				"translateable"
+			],
+			[
+				"trans",
+				"translateable"
+			],
+			[
+				"transl",
+				"translateable"
+			],
+			[
+				"expr",
+				"exprGroup"
+			],
+			[
+				"tag",
+				"Tag"
+			],
+			[
+				"pha",
+				"phaseSetup"
+			],
+			[
+				"dice",
+				"transDice"
+			],
+			[
+				"emaze",
+				"eMaze"
+			],
+			[
+				"coll",
+				"doCollatz"
+			],
+			[
+				"privat",
+				"privateKey"
+			],
+			[
+				"binary",
+				"binaryCode"
+			],
+			[
+				"plain",
+				"plainBinary"
+			],
+			[
+				"maze",
+				"mazeBinList"
+			],
+			[
+				"enc",
+				"encryptedMessage"
+			],
+			[
+				"bina",
+				"binaryToMaze"
+			],
+			[
+				"en",
+				"encryptedMessage"
+			],
+			[
+				"maxY",
+				"maxY-minY"
+			],
+			[
+				"maxX",
+				"maxX-minX"
+			],
+			[
+				"matrix",
+				"matrixIndexList"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Obfuscate.java",
+			"settings":
+			{
+				"buffer_size": 2341,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Classfile /C:/Users/ariyn/Documents/workspace/obfuscate-cli/NewTest.class\n  Last modified 2016. 6. 7; size 867 bytes\n  MD5 checksum 8ef443e918bc468dc24754fcd9756b29\n  Compiled from \"NewTest.java\"\npublic class NewTest\n  minor version: 0\n  major version: 52\n  flags: ACC_PUBLIC, ACC_SUPER\nConstant pool:\n   #1 = Methodref          #29.#42        // java/lang/Object.\"<init>\":()V\n   #2 = Fieldref           #43.#44        // java/lang/System.out:Ljava/io/PrintStream;\n   #3 = Methodref          #45.#46        // java/io/PrintStream.println:(Ljava/lang/String;)V\n   #4 = Methodref          #47.#48        // java/lang/Math.random:()D\n   #5 = Double             2.0d\n   #7 = Double             3.0d\n   #9 = Double             5.0d\n  #11 = Double             823.0d\n  #13 = Double             7.0d\n  #15 = Double             11.0d\n  #17 = Double             13.0d\n  #19 = Double             37.0d\n  #21 = Double             6.0d\n  #23 = Double             9.0d\n  #25 = Methodref          #49.#50        // java/lang/Double.toString:(D)Ljava/lang/String;\n  #26 = String             #51            // of course!\n  #27 = String             #52            // what????!?!?!\n  #28 = Class              #53            // NewTest\n  #29 = Class              #54            // java/lang/Object\n  #30 = Utf8               <init>\n  #31 = Utf8               ()V\n  #32 = Utf8               Code\n  #33 = Utf8               LineNumberTable\n  #34 = Utf8               sample1\n  #35 = Utf8               (Ljava/lang/String;)V\n  #36 = Utf8               sample2\n  #37 = Utf8               StackMapTable\n  #38 = Class              #53            // NewTest\n  #39 = Class              #55            // java/lang/String\n  #40 = Utf8               SourceFile\n  #41 = Utf8               NewTest.java\n  #42 = NameAndType        #30:#31        // \"<init>\":()V\n  #43 = Class              #56            // java/lang/System\n  #44 = NameAndType        #57:#58        // out:Ljava/io/PrintStream;\n  #45 = Class              #59            // java/io/PrintStream\n  #46 = NameAndType        #60:#35        // println:(Ljava/lang/String;)V\n  #47 = Class              #61            // java/lang/Math\n  #48 = NameAndType        #62:#63        // random:()D\n  #49 = Class              #64            // java/lang/Double\n  #50 = NameAndType        #65:#66        // toString:(D)Ljava/lang/String;\n  #51 = Utf8               of course!\n  #52 = Utf8               what????!?!?!\n  #53 = Utf8               NewTest\n  #54 = Utf8               java/lang/Object\n  #55 = Utf8               java/lang/String\n  #56 = Utf8               java/lang/System\n  #57 = Utf8               out\n  #58 = Utf8               Ljava/io/PrintStream;\n  #59 = Utf8               java/io/PrintStream\n  #60 = Utf8               println\n  #61 = Utf8               java/lang/Math\n  #62 = Utf8               random\n  #63 = Utf8               ()D\n  #64 = Utf8               java/lang/Double\n  #65 = Utf8               toString\n  #66 = Utf8               (D)Ljava/lang/String;\n{\n  public NewTest();\n    descriptor: ()V\n    flags: ACC_PUBLIC\n    Code:\n      stack=1, locals=1, args_size=1\n         0: aload_0\n         1: invokespecial #1                  // Method java/lang/Object.\"<init>\":()V\n         4: return\n      LineNumberTable:\n        line 1: 0\n\n  public void sample1(java.lang.String);\n    descriptor: (Ljava/lang/String;)V\n    flags: ACC_PUBLIC\n    Code:\n      stack=2, locals=2, args_size=2\n         0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;\n         3: aload_1\n         4: invokevirtual #3                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V\n         7: return\n      LineNumberTable:\n        line 3: 0\n        line 4: 7\n\n  public void sample2();\n    descriptor: ()V\n    flags: ACC_PUBLIC\n    Code:\n      stack=4, locals=8, args_size=1\n         0: invokestatic  #4                  // Method java/lang/Math.random:()D\n         3: dconst_1\n         4: dadd\n         5: dstore_1\n         6: invokestatic  #4                  // Method java/lang/Math.random:()D\n         9: dconst_1\n        10: dadd\n        11: ldc2_w        #5                  // double 2.0d\n        14: dmul\n        15: ldc2_w        #7                  // double 3.0d\n        18: dmul\n        19: ldc2_w        #9                  // double 5.0d\n        22: dmul\n        23: ldc2_w        #9                  // double 5.0d\n        26: dmul\n        27: ldc2_w        #11                 // double 823.0d\n        30: dmul\n        31: dstore_3\n        32: dload_1\n        33: ldc2_w        #5                  // double 2.0d\n        36: dmul\n        37: ldc2_w        #5                  // double 2.0d\n        40: dmul\n        41: ldc2_w        #7                  // double 3.0d\n        44: dmul\n        45: ldc2_w        #9                  // double 5.0d\n        48: dmul\n        49: ldc2_w        #13                 // double 7.0d\n        52: dmul\n        53: ldc2_w        #15                 // double 11.0d\n        56: dmul\n        57: ldc2_w        #17                 // double 13.0d\n        60: dmul\n        61: ldc2_w        #19                 // double 37.0d\n        64: dmul\n        65: ldc2_w        #21                 // double 6.0d\n        68: dsub\n        69: ldc2_w        #23                 // double 9.0d\n        72: ddiv\n        73: dstore        5\n        75: dload         5\n        77: invokestatic  #25                 // Method java/lang/Double.toString:(D)Ljava/lang/String;\n        80: astore        7\n        82: dload         5\n        84: dload_3\n        85: dcmpg\n        86: ifge          100\n        89: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;\n        92: ldc           #26                 // String of course!\n        94: invokevirtual #3                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V\n        97: goto          108\n       100: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;\n       103: ldc           #27                 // String what????!?!?!\n       105: invokevirtual #3                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V\n       108: return\n      LineNumberTable:\n        line 6: 0\n        line 7: 6\n        line 8: 32\n        line 9: 75\n        line 12: 82\n        line 13: 89\n        line 15: 100\n        line 17: 108\n      StackMapTable: number_of_entries = 2\n        frame_type = 255 /* full_frame */\n          offset_delta = 100\n          locals = [ class NewTest, double, double, double, class java/lang/String ]\n          stack = []\n        frame_type = 7 /* same */\n}\nSourceFile: \"NewTest.java\"\n",
+			"file": "NewTest.class",
+			"file_size": 867,
+			"file_write_time": 131097538264696932,
+			"settings":
+			{
+				"buffer_size": 6661,
+				"line_ending": "Unix",
+				"scratch": true
+			}
+		},
+		{
+			"file": "NewTest.java",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Classfile /C:/Users/ariyn/Documents/workspace/obfuscate-cli/Test-Original.class\n  Last modified 2016. 6. 7; size 1207 bytes\n  MD5 checksum 7833a92b53a868e41296464cb60088d1\n  Compiled from \"Test.java\"\npublic class Test\n  minor version: 0\n  major version: 52\n  flags: ACC_PUBLIC, ACC_SUPER\nConstant pool:\n   #1 = Class              #2             // Test\n   #2 = Utf8               Test\n   #3 = Class              #4             // java/lang/Object\n   #4 = Utf8               java/lang/Object\n   #5 = Utf8               <init>\n   #6 = Utf8               ()V\n   #7 = Utf8               Code\n   #8 = Methodref          #3.#9          // java/lang/Object.\"<init>\":()V\n   #9 = NameAndType        #5:#6          // \"<init>\":()V\n  #10 = Utf8               LineNumberTable\n  #11 = Utf8               LocalVariableTable\n  #12 = Utf8               this\n  #13 = Utf8               LTest;\n  #14 = Utf8               main\n  #15 = Utf8               ([Ljava/lang/String;)V\n  #16 = Long               65l\n  #18 = Long               17l\n  #20 = Long               3233l\n  #22 = Fieldref           #23.#25        // java/lang/System.out:Ljava/io/PrintStream;\n  #23 = Class              #24            // java/lang/System\n  #24 = Utf8               java/lang/System\n  #25 = NameAndType        #26:#27        // out:Ljava/io/PrintStream;\n  #26 = Utf8               out\n  #27 = Utf8               Ljava/io/PrintStream;\n  #28 = Class              #29            // java/lang/StringBuilder\n  #29 = Utf8               java/lang/StringBuilder\n  #30 = String             #31            // (\n  #31 = Utf8               (\n  #32 = Methodref          #28.#33        // java/lang/StringBuilder.\"<init>\":(Ljava/lang/String;)V\n  #33 = NameAndType        #5:#34         // \"<init>\":(Ljava/lang/String;)V\n  #34 = Utf8               (Ljava/lang/String;)V\n  #35 = Methodref          #28.#36        // java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n  #36 = NameAndType        #37:#38        // append:(J)Ljava/lang/StringBuilder;\n  #37 = Utf8               append\n  #38 = Utf8               (J)Ljava/lang/StringBuilder;\n  #39 = String             #40            // ,\n  #40 = Utf8               ,\n  #41 = Methodref          #28.#42        // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n  #42 = NameAndType        #37:#43        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n  #43 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;\n  #44 = String             #45            // ) =\n  #45 = Utf8               ) =\n  #46 = Methodref          #1.#47         // Test.mystery:(JJJ)J\n  #47 = NameAndType        #48:#49        // mystery:(JJJ)J\n  #48 = Utf8               mystery\n  #49 = Utf8               (JJJ)J\n  #50 = Methodref          #28.#51        // java/lang/StringBuilder.toString:()Ljava/lang/String;\n  #51 = NameAndType        #52:#53        // toString:()Ljava/lang/String;\n  #52 = Utf8               toString\n  #53 = Utf8               ()Ljava/lang/String;\n  #54 = Methodref          #55.#57        // java/io/PrintStream.println:(Ljava/lang/String;)V\n  #55 = Class              #56            // java/io/PrintStream\n  #56 = Utf8               java/io/PrintStream\n  #57 = NameAndType        #58:#34        // println:(Ljava/lang/String;)V\n  #58 = Utf8               println\n  #59 = Long               2790l\n  #61 = Long               2753l\n  #63 = Utf8               args\n  #64 = Utf8               [Ljava/lang/String;\n  #65 = Utf8               a\n  #66 = Utf8               J\n  #67 = Utf8               b\n  #68 = Utf8               c\n  #69 = Long               2l\n  #71 = Utf8               m\n  #72 = Utf8               e\n  #73 = Utf8               n\n  #74 = Utf8               z\n  #75 = Utf8               StackMapTable\n  #76 = Utf8               SourceFile\n  #77 = Utf8               Test.java\n{\n  public Test();\n    descriptor: ()V\n    flags: ACC_PUBLIC\n    Code:\n      stack=1, locals=1, args_size=1\n         0: aload_0\n         1: invokespecial #8                  // Method java/lang/Object.\"<init>\":()V\n         4: return\n      LineNumberTable:\n        line 1: 0\n      LocalVariableTable:\n        Start  Length  Slot  Name   Signature\n            0       5     0  this   LTest;\n\n  public static void main(java.lang.String[]);\n    descriptor: ([Ljava/lang/String;)V\n    flags: ACC_PUBLIC, ACC_STATIC\n    Code:\n      stack=8, locals=7, args_size=1\n         0: ldc2_w        #16                 // long 65l\n         3: lstore_1\n         4: ldc2_w        #18                 // long 17l\n         7: lstore_3\n         8: ldc2_w        #20                 // long 3233l\n        11: lstore        5\n        13: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;\n        16: new           #28                 // class java/lang/StringBuilder\n        19: dup\n        20: ldc           #30                 // String (\n        22: invokespecial #32                 // Method java/lang/StringBuilder.\"<init>\":(Ljava/lang/String;)V\n        25: lload_1\n        26: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n        29: ldc           #39                 // String ,\n        31: invokevirtual #41                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n        34: lload_3\n        35: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n        38: ldc           #39                 // String ,\n        40: invokevirtual #41                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n        43: lload         5\n        45: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n        48: ldc           #44                 // String ) =\n        50: invokevirtual #41                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n        53: lload_1\n        54: lload_3\n        55: lload         5\n        57: invokestatic  #46                 // Method mystery:(JJJ)J\n        60: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n        63: invokevirtual #50                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;\n        66: invokevirtual #54                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V\n        69: ldc2_w        #59                 // long 2790l\n        72: lstore_1\n        73: ldc2_w        #61                 // long 2753l\n        76: lstore_3\n        77: ldc2_w        #20                 // long 3233l\n        80: lstore        5\n        82: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;\n        85: new           #28                 // class java/lang/StringBuilder\n        88: dup\n        89: ldc           #30                 // String (\n        91: invokespecial #32                 // Method java/lang/StringBuilder.\"<init>\":(Ljava/lang/String;)V\n        94: lload_1\n        95: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n        98: ldc           #39                 // String ,\n       100: invokevirtual #41                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n       103: lload_3\n       104: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n       107: ldc           #39                 // String ,\n       109: invokevirtual #41                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n       112: lload         5\n       114: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n       117: ldc           #44                 // String ) =\n       119: invokevirtual #41                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;\n       122: lload_1\n       123: lload_3\n       124: lload         5\n       126: invokestatic  #46                 // Method mystery:(JJJ)J\n       129: invokevirtual #35                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;\n       132: invokevirtual #50                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;\n       135: invokevirtual #54                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V\n       138: return\n      LineNumberTable:\n        line 3: 0\n        line 4: 13\n        line 5: 69\n        line 6: 73\n        line 7: 77\n        line 8: 82\n        line 9: 138\n      LocalVariableTable:\n        Start  Length  Slot  Name   Signature\n            0     139     0  args   [Ljava/lang/String;\n            4     135     1     a   J\n            8     131     3     b   J\n           13     126     5     c   J\n\n  public static long mystery(long, long, long);\n    descriptor: (JJJ)J\n    flags: ACC_PUBLIC, ACC_STATIC\n    Code:\n      stack=4, locals=8, args_size=3\n         0: lconst_1\n         1: lstore        6\n         3: goto          42\n         6: lload_2\n         7: ldc2_w        #69                 // long 2l\n        10: ldiv\n        11: lstore_2\n        12: lload_0\n        13: lload_0\n        14: lmul\n        15: lload         4\n        17: lrem\n        18: lstore_0\n        19: lload_2\n        20: ldc2_w        #69                 // long 2l\n        23: lrem\n        24: lconst_0\n        25: lcmp\n        26: ifeq          6\n        29: lload_2\n        30: lconst_1\n        31: lsub\n        32: lstore_2\n        33: lload         6\n        35: lload_0\n        36: lmul\n        37: lload         4\n        39: lrem\n        40: lstore        6\n        42: lload_2\n        43: lconst_0\n        44: lcmp\n        45: ifne          19\n        48: lload         6\n        50: lreturn\n      LineNumberTable:\n        line 12: 0\n        line 13: 3\n        line 15: 6\n        line 16: 12\n        line 14: 19\n        line 18: 29\n        line 19: 33\n        line 13: 42\n        line 21: 48\n      LocalVariableTable:\n        Start  Length  Slot  Name   Signature\n            0      51     0     m   J\n            0      51     2     e   J\n            0      51     4     n   J\n            3      48     6     z   J\n      StackMapTable: number_of_entries = 3\n        frame_type = 252 /* append */\n          offset_delta = 6\n          locals = [ long ]\n        frame_type = 12 /* same */\n        frame_type = 22 /* same */\n}\nSourceFile: \"Test.java\"\n",
+			"file": "Test-Original.class",
+			"file_size": 1207,
+			"file_write_time": 131097382124056128,
+			"settings":
+			{
+				"buffer_size": 10591,
+				"line_ending": "Unix",
+				"scratch": true
+			}
+		},
+		{
+			"file": "NewTestTest.java",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "run.bat",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					""
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"with shell"
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"node js"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					""
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"with shell"
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"node js"
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"grunt check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/electron.sublime-build",
+					""
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"with shell"
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"node js"
+				],
+				[
+					"Packages/User/electron.sublime-build",
+					"grunt check"
+				]
+			],
+			[
+				"Packages/User/electron.sublime-build",
+				"grunt check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "pcinstall",
+		"selected_items":
+		[
+			[
+				"pcinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: List Packages"
+			],
+			[
+				"pcins",
+				"Preferences: Package Control Settings – Default"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ariyn/Documents/workspace/obfuscate-cli"
+	],
+	"file_history":
+	[
+		"/C/Users/ariyn/Documents/workspace/obfuscate-cli/Test.class",
+		"/C/Users/ariyn/Documents/workspace/obfuscate-cli/NewTest.class",
+		"/C/Users/ariyn/Documents/workspace/obfuscate-cli/Obfuscate.class",
+		"/C/Users/ariyn/Documents/workspace/obfuscate-cli/Obfuscate.java",
+		"/C/Users/ariyn/Documents/workspace/obfuscate-cli/run.bash",
+		"/C/Users/ariyn/Documents/workspace/obfuscate-cli/MyClass.class",
+		"/C/Users/ariyn/Documents/JB-Wiki/contents/gamasutra/7 progression and event systems that every developer should study.md",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/idemonicon.js",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/MonsterController.js",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/HeroController.js",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/UserController.js",
+		"/C/Users/ariyn/Documents/modern-hero/html/main.html",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/main.js",
+		"/C/Users/ariyn/Documents/modern-hero/css/main.css",
+		"/C/Users/ariyn/AppData/Roaming/.minecraft/launcher_profiles.json",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/angular-animate.min.js",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/DrawController",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/ModernHero.js",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/neoPlastic.js",
+		"/C/Users/ariyn/Documents/modern-hero/test/np.test.js",
+		"/C/Users/ariyn/Documents/modern-hero/html/neoPlastic.html",
+		"/C/Users/ariyn/Documents/modern-hero/html/idemonicon.html",
+		"/E/SteamLibrary/steamapps/common/TIS-100/tis100_Data/mainData",
+		"/C/Users/ariyn/Documents/modern-hero/scripts/angular.min.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Componenets/teamOrganizor.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/teamOrganizor-angular.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/main.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/css/mainPage.css",
+		"/C/Users/ariyn/Documents/E-ppomo/src/html/mainPage.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/css/teamOrganizor.css",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Componenets/contextMenu.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Componenets/deadline.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/main.js",
+		"/C/Users/ariyn/Documents/port-server/user.py",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/deadline-angular.js",
+		"/C/Users/ariyn/AppData/Roaming/Sublime Text 3/Packages/User/electron.sublime-build",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/landing.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/html/landing.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/html/teamOrganizer.html",
+		"/C/Users/ariyn/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ariyn/Documents/E-ppomo/src/NScripts/tasks.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/css/deadline-angular.css",
+		"/C/Users/ariyn/Documents/E-ppomo/src/html/deadline.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/visualizer-angular.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/detail-angular.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/css/deadline.css",
+		"/C/Users/ariyn/Documents/E-ppomo/src/html/taskVisualizer2.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Libraries/jquery.loader.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/css/visualizer-angular.css",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Componenets/tree.html",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Componenets/tree-sample",
+		"/C/Users/ariyn/Documents/E-ppomo/src/html/timer.html",
+		"/C/Users/ariyn/Documents/port-server/sftp-config.json",
+		"/C/Users/ariyn/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/visualizer.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/css/landing.css",
+		"/C/Users/ariyn/Documents/E-ppomo/src/Scripts/timer.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/NScripts/ppomodoro.js",
+		"/C/Users/ariyn/Documents/E-ppomo/src/NScripts/port-api.js",
+		"/C/Users/ariyn/Documents/port-server/newSQL.py",
+		"/C/Users/ariyn/Documents/port-server/aws.pem",
+		"//mit-games.kr/ariyn/personal/AWSKEY.pem",
+		"/C/Users/ariyn/Documents/web/newbie/.ftpconfig",
+		"/C/Users/ariyn/Documents/Compiler/sumAnalyzing.py",
+		"/C/Users/ariyn/Documents/headerCreat.py",
+		"/C/Users/ariyn/Documents/sample.h",
+		"/C/Users/ariyn/Documents/Compiler/sumAnalyzing1.py",
+		"/C/Users/ariyn/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_4번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_3번.c",
+		"/C/Users/ariyn/Documents/python/aws/ColudDrive/__init__.py",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_2번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_5번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_6번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_7번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_8번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_9번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_10번.c",
+		"/C/Users/ariyn/Downloads/hh0260_2/이현학_2주차_1번.c",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/LevelManager.cs",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/Monster.cs",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/Room.cs",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/RoomManager.cs",
+		"/D/games/FantasyHeroMaker/Assets/HeroManager.cs",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/Hero.cs",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/Skill.cs",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/Status.cs",
+		"/C/Users/ariyn/Documents/python/aws/.gitignore",
+		"/C/Users/ariyn/Desktop/Airocean World.svg",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/GameManager.cs",
+		"/D/games/FantasyHeroMaker/Assets/Resources/statusData.csv",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/skill.cs",
+		"/D/games/FantasyHeroMaker/Assets/Resources/levelData.csv",
+		"/D/games/FantasyHeroMaker/Assets/Resources/warriorStatusData.csv",
+		"/D/games/FantasyHeroMaker/Assets/Scripts/DamageSpriteScript.cs",
+		"/D/games/FantasyHeroMaker/Assets/DamageSpriteScript.cs",
+		"/D/games/FantasyHeroMaker/Assets/Monster.cs",
+		"/D/games/FantasyHeroMaker/Assets/GameManager.cs",
+		"/D/games/FantasyHeroMaker/Assets/Hero.cs",
+		"/D/games/FantasyHeroMaker/Assets/LevelManager.cs",
+		"/D/games/FantasyHeroMaker/Assets/levelData.csv",
+		"/D/games/FantasyHeroMaker/Assets/3dTextShader.shader",
+		"/D/games/FantasyHeroMaker/Assets/New Material.mat",
+		"/D/games/IdleCloneForces/Assets/Script/Creator.cs",
+		"/D/games/IdleCloneForces/Assets/Creator.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/JumpingDispenser.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/Dispenser.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/test.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/MapLoader.cs",
+		"/D/games/BandingMachineLemmings/Assets/speechBubble.cs",
+		"/D/games/BandingMachineLemmings/Assets/MapLoader.cs",
+		"/D/games/BandingMachineLemmings/Assets/MikuMover.cs",
+		"/D/games/BandingMachineLemmings/Assets/StageManager.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/GameComponents.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/goal.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/MikuMover.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/StageManager.cs",
+		"/D/games/BandingMachineLemmings/Assets/Scripts/Road.cs",
+		"/D/games/BandingMachineLemmings/Assets/Road.cs",
+		"/D/games/BandingMachineLemmings/Assets/goal.cs",
+		"/D/games/BandingMachineLemmings/Assets/GameComponents.cs",
+		"/D/games/BandingMachineLemmings/Assets/Dispenser.cs",
+		"/C/Users/ariyn/Documents/crawler/hitomi.py",
+		"/D/[STEINS;GATE][i-funbox.com][SteinsGate.app][iOS_v4.2_and_above]/Payload/SteinsGate.app/SG06_09.src",
+		"/D/[STEINS;GATE][i-funbox.com][SteinsGate.app][iOS_v4.2_and_above]/Payload/SteinsGate.app/SG08_12.src",
+		"/D/[STEINS;GATE][i-funbox.com][SteinsGate.app][iOS_v4.2_and_above]/Payload/SteinsGate.app/ATCH_20.txt",
+		"/D/[STEINS;GATE][i-funbox.com][SteinsGate.app][iOS_v4.2_and_above]/Payload/SteinsGate.app/_mail.src"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#5",
+			"println",
+			"Math",
+			"random",
+			"java/lang/Math.random",
+			"Math",
+			"console.log",
+			"player",
+			"HeroInfoController",
+			"log",
+			")\n",
+			"pixelIndex",
+			"checkPossibleSize",
+			"[x]",
+			"[x",
+			"x",
+			"newPlastic",
+			"console.log",
+			"var",
+			"team",
+			"abort",
+			"deadline",
+			"getTask",
+			"deadLine",
+			"deadline",
+			"parseFunc",
+			"console.log",
+			"console.log\n",
+			"console.log",
+			"deadline",
+			"까지",
+			"<button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>",
+			"<button type=\"button\" class=\"close\" data-dismiss=\"modal\" ng-click=\"showCalendar=false\">&times;</button>",
+			"<span class=\"header-title modal-title\">마감일 설정</span>",
+			"contextMenu",
+			"userProfile",
+			"produce",
+			"userProfile",
+			"response",
+			"getTask",
+			"task",
+			"selectedTask",
+			"changeDetail",
+			"change",
+			"detail",
+			"index",
+			"setDeadLine",
+			"apiGet",
+			"dead",
+			"taskSetDeadline",
+			"deadLine",
+			"selectedTask",
+			"deadLine",
+			"getTasks",
+			"tasks",
+			"selectedTask",
+			"controller",
+			"taskDetail",
+			"task-detail",
+			"taskDetail",
+			"visua",
+			"change",
+			"selectedDate",
+			"isSelected",
+			"picked",
+			"isSelected",
+			"change",
+			"pika-select",
+			"js-dpicker-cal",
+			"pickers",
+			"pickers]",
+			"pickers",
+			"dpicker-widget",
+			"dpicker-widget\\",
+			"u-clearfix",
+			"header-title",
+			"portAPI",
+			"closePpomoInfoPanel",
+			"closePpomoInfoPanel\nclosePpomoInfoPanel",
+			"closePpomoInfoPanel",
+			"clearDetail",
+			"$scope",
+			"ppomoDetailHeader",
+			"changeContainerName",
+			"click",
+			"ppomoListContainer",
+			"ppomoList",
+			"reDrawTree",
+			"40",
+			"\n	margin:0;",
+			"clearPpomo",
+			"refresh",
+			"Outer",
+			"outer",
+			"svg",
+			"angularTree",
+			"update",
+			"TaskVisualizer",
+			">\n",
+			"const",
+			"node-id",
+			"roleId",
+			"<tree-element tree=\"node\" node-id=' + attrs.nodeId + ' node-name=' + attrs.nodeName + ' node-state=' + attrs.nodeState + '></tree-element>",
+			"getTasks",
+			"login",
+			"print",
+			"content-subhead",
+			"console.log",
+			"moveTask",
+			"console.log",
+			"40",
+			"detail",
+			".ppomoListContainer",
+			"clickHandler",
+			"click",
+			"createNewTask",
+			"newTask",
+			"\"null\"",
+			"parseFunction",
+			"ipc.on\\(\"",
+			"ipc.on(\"",
+			"console.log",
+			"openMainWindow",
+			",\\n}",
+			"size",
+			"structure:",
+			"size",
+			"structure"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"var",
+			"\\n}",
+			"$1 = value;",
+			"room",
+			"Cooltime",
+			"retVal =",
+			"retVal = ",
+			"$1 = value",
+			"\"$1\":\\n\\t\\t\\t\\t\\treturn this.$1;\\n",
+			"\"(.+)\":\\n\\t\\t\\t\\t\\treturn this.$1;\\n",
+			"\"(.+)\":\\n\\t\\t\\t\\t\\treturn this.$1;",
+			"case $1:\\nbreak;",
+			"case $1:\\n",
+			"int $1;",
+			"\"$1\",",
+			"\"$1\"",
+			"\"$1",
+			"\"$1\"",
+			"\\[\\1\\]",
+			"{\\1}",
+			"{(\\1)}",
+			"{{1}}",
+			"translate(self, variables={})",
+			"translateable",
+			"vPrint",
+			"  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Obfuscate.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1365,
+								1365
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1716.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "NewTest.class",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								955,
+								955
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "NewTest.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Test-Original.class",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8502,
+								8502
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3915.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "NewTestTest.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "run.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								159
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 297.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 118.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "obfuscate.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
