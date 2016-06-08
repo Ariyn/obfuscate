@@ -2,6 +2,7 @@ public class NewTest {
 	public void sample1(String a) {
 		System.out.println(a);
 	}
+	
 	public void sample2() {
 		double r1 = (Math.random()+1);
 		double r2 = (Math.random()+1)*2*3*5*5*823;
@@ -13,6 +14,39 @@ public class NewTest {
 			System.out.println("of course!");
 		} else {
 			System.out.println("what????!?!?!");
+		}
+	}
+	
+	public void sample3() {
+		double a = Math.random();
+		System.out.println(a);
+	}
+
+	public void sample4() {
+		int a = 0;		
+		System.out.println(a);
+		
+		System.out.println(a);
+	}
+
+	public void sample5(int b) {
+		if(sample6(b) == 0) {
+			b = 1;
+		}
+	}
+
+	private static int sample6(int a) {
+		return a;
+	}
+
+	private boolean random(double r1, double r2) {
+		r1 = ((r1+1)*2*2*3*5*7*11*13*37 - 6) / 9;
+		r2 = (r2+1)*2*3*5*5*823;
+
+		if(r1 > r2) {
+			return true;
+		} else {
+			return false;
 		}
 	}
 }
