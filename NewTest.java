@@ -24,7 +24,9 @@ public class NewTest {
 
 	public void sample4() {
 		int a = 0;		
-		System.out.println(a);
+		if(random(1.0, 1.0) == 1) {
+			System.out.println(a);
+		}
 		
 		System.out.println(a);
 	}
@@ -39,14 +41,14 @@ public class NewTest {
 		return a;
 	}
 
-	private boolean random(double r1, double r2) {
+	private int random(double r1, double r2) {
 		r1 = ((r1+1)*2*2*3*5*7*11*13*37 - 6) / 9;
 		r2 = (r2+1)*2*3*5*5*823;
 
 		if(r1 > r2) {
-			return true;
+			return 1;
 		} else {
-			return false;
+			return 0;
 		}
 	}
 }

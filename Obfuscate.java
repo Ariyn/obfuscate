@@ -16,7 +16,7 @@ public class Obfuscate {
 		
 		// findConstant(myClass.getConstantPool(), "sample");
 
-		int a = (int) (Math.random()*10);
+		// int a = (int) (Math.random()*10);
 
 		// System.out.println("*******Methods*********");
 		// for(Method m: myClass.getMethods()){
@@ -58,13 +58,52 @@ public class Obfuscate {
 		il.append(new DCONST(1));
 		il.append(new DADD());
 		il.append(new LDC2_W(cp.addDouble(2.0)));
+		il.append(new DMUL());
 		il.append(new LDC2_W(cp.addDouble(2.0)));
 		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(3.0)));
 		il.append(new DMUL());
-		il.append(new DSTORE(0));
+		il.append(new LDC2_W(cp.addDouble(5.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(7.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(11.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(13.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(37.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(6.0)));
+		il.append(new DSUB());
+		il.append(new LDC2_W(cp.addDouble(9.0)));
+		il.append(new DDIV());
+		il.append(new DSTORE(1));
+		il.append(new DLOAD(3));
+		il.append(new DCONST(1));
+		il.append(new DADD());
+		il.append(new LDC2_W(cp.addDouble(2.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(3.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(5.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(5.0)));
+		il.append(new DMUL());
+		il.append(new LDC2_W(cp.addDouble(823.0)));
 
-		il.append(new ICONST(1));
+		il.append(new DMUL());
+		il.append(new DSTORE(3));
+		il.append(new DLOAD(1));
+		il.append(new DLOAD(3));
+		il.append(new DCMPL());
+		
+		InstructionHandle ih = il.append(new ICONST(1));
+
 		il.append(new IRETURN());
+		il.append(new ICONST(0));
+		InstructionHandle ih2 = il.insert(new IRETURN());
+
+		il.append(ih, new IFLE(ih2));
 
 		// il.append(new POP());
 
@@ -99,59 +138,43 @@ public class Obfuscate {
 				InstructionList il = mg.getInstructionList();
 				InstructionHandle[] iHand = il.getInstructionHandles();
 
-				// il.insert(iHand[49], new DLOAD(ddIndex));
-				il.insert(iHand[49], new DCONST(1.0));
-				il.insert(iHand[49], new DCONST(1.0));
-
-				InvokeInstruction invoke =  iFac.createInvoke("Test", "MakeItSuperRandom", Type.INT, new Type[] {
-				}, Constants.INVOKESTATIC);
-				il.insert(iHand[49], invoke);
-				// il.insert(iHand[49], invoke);
-				// il.insert(iHand[49], new DUP());
-				// il.insert(iHand[49], new ICONST(0));
-				il.insert(iHand[49], new IFNE(iHand[49]));
-
-				il.insert(iHand[49], new ICONST(0));
-				il.insert(iHand[49], new ICONST(1));
-				il.insert(iHand[49], new ICONST(2));
-				il.insert(iHand[49], new POP());
-				il.insert(iHand[49], new POP());
-				il.insert(iHand[49], new POP());
-
-
-				// il.insert(iHand[49], new POP());
-				
-
-				// il.insert(iHand[49], new POP());
+				il = addRandom(il, iFac, iHand, 11);
+				il = addRandom(il, iFac, iHand, 13);
+				il = addRandom(il, iFac, iHand, 15);
+				il = addRandom(il, iFac, iHand, 17);
+				il = addRandom(il, iFac, iHand, 49);
 
 				for(int i=0; i<iHand.length; i++) {
 					Instruction inst = iHand[i].getInstruction();
-					// if(inst instanceof GETSTATIC) {
-					// 	ILOAD _inst = (ILOAD) iHand[i+1].getInstruction();
+					
 
-					// 	il.insert(iHand[i], new ILOAD(_inst.getIndex()));
-					// 	il.insert(iHand[i], new ICONST(1));
-					// 	il.insert(iHand[i], new IADD());
-					// 	il.insert(iHand[i], new ISTORE(_inst.getIndex()));
 
-					// 	// System.out.println(inst);
-					// }
-					if(inst instanceof ICONST) {
-						ICONST _inst = (ICONST) iHand[i].getInstruction();
-						// try {
-							// il.insert(iHand[i], new ICONST(3));
-							// il.insert(iHand[i+1wa], new IADD());
-							// il.insert(iHand[i], new ISTORE(0));
-							// il.insert(iHand[i], new POP());
+				}
+				il.setPositions();
+				mg.setInstructionList(il);
+				mg.setMaxStack();
+				mg.setMaxLocals();
+				mg.removeLineNumbers();
 
-							// il.insert(iHand[i+1], new ICONST(4));
-							// il.insert(iHand[i+1], new ICONST(5));
-							// il.delete(iHand[i]);
-						// } catch(TargetLostException e) {
+				cg.replaceMethod(m, mg.getMethod());
+			} else if(m.getName().equals("mystery")) {
+				MethodGen mg = new MethodGen(m, cg.getClassName(), cp);
+				// int ddIndex = mg.addLocalVariable("dd", Type.DOUBLE, null, null).getIndex();
 
-						// }
-						// System.out.println(inst);
-					}
+				InstructionList il = mg.getInstructionList();
+				InstructionHandle[] iHand = il.getInstructionHandles();
+
+				il = addRandom(il, iFac, iHand, 10);
+				il = addRandom(il, iFac, iHand, 13);
+				il = addRandom(il, iFac, iHand, 20);
+				il = addRandom(il, iFac, iHand, 17);
+				il = addRandom(il, iFac, iHand, 30);
+
+				for(int i=0; i<iHand.length; i++) {
+					Instruction inst = iHand[i].getInstruction();
+					
+
+
 				}
 				il.setPositions();
 				mg.setInstructionList(il);
@@ -164,6 +187,20 @@ public class Obfuscate {
 		}
 
 		return cg;
+	}
+
+	private static InstructionList addRandom(InstructionList il, InstructionFactory iFac, InstructionHandle[] iHand, int index) {
+
+		il.insert(iHand[index], new DCONST(1.0));
+		il.insert(iHand[index], new DCONST(1.0));
+
+		InvokeInstruction invoke =  iFac.createInvoke("Test", "MakeItSuperRandom", Type.INT, new Type[] { Type.DOUBLE, Type.DOUBLE }, Constants.INVOKESTATIC);
+		il.insert(iHand[index], invoke);
+		// il.insert(iHand[49], invoke);
+		// il.insert(iHand[49], new DUP());
+		// il.insert(iHand[49], new ICONST(0));
+		il.insert(iHand[index], new IFNE(iHand[index]));
+		return il;
 	}
 }
 
